@@ -1,0 +1,40 @@
+
+<view class='body'>
+	<i-notice-bar icon="systemprompt" loop speed="2000">
+	{{notice}}
+	</i-notice-bar>
+
+	<view class='topbar-view'>
+
+		<view class='select-container'>
+			<view class='select-container-left'>
+				<view class='left-borrow' bindtap='examGo'>
+					<text class='select-text1'>挑战答题</text>
+					<image src='../../images/left-borrow-img.png'></image>
+				</view>
+				<view class='left-introduce' bindtap='historyGo'>
+					<text class='select-text2'>答题记录 </text>
+				</view>
+				<view class='left-open'  bindtap='recordGo'>
+					<text class='select-text2'>复活记录</text>
+				</view>
+			</view>
+			<view class='select-container-right'>
+				<view class='right-sao' bindtap='rankGo'>
+					<text class='select-text2'>答题排行</text>
+					<image src='../../images/right-sao-img.png'></image>
+				</view>
+				<view class='right-record' bindtap='articleGo'>
+					<text class='select-text1'>活动方案</text>
+
+				</view>
+				<!-- <view class='right-question' bindtap='recordGo'>
+					<text class='select-text2'>复活记录</text>
+				</view> -->
+				<!-- <view class='right-question1' bindtap='aboutGo'>
+					<text class='select-text2'>关于我们</text>
+				</view> -->
+			</view>
+		</view>
+	</view>
+</view>

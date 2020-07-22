@@ -1,0 +1,46 @@
+<view class="page" style="width:{{windowWidth}}px;height:{{windowHeight}}px">
+
+
+    <view class="body">
+        <view class="info">
+            <view class="name">
+                <view class="title">姓名信息</view>
+                <view class="input">
+                    <input  bindinput="bindNameInput"/>
+                </view>
+            </view>
+
+            <view class="name">
+                <view class="title">工作单位</view>
+                <view class="input">
+                    <input  bindinput="bindDeptInput"/>
+                </view>
+            </view>
+
+            <view class="tel">
+                <view class="title">联系电话</view>
+                <view class="input">
+                    <input  bindinput="bindTelInput"/>
+                </view>
+            </view>
+   
+        </view>
+
+        <view class="btn-area" bindtap="toGo">
+            <view class="button">授权提交</view>
+        </view>
+        
+
+    </view>
+
+    <view class="remarks">
+        <view class="num">
+            1、请认真填写真实信息
+        </view>
+        <view class="num">
+            2、以上信息仅用于统计排名，发放奖品用，不做其他用途
+        </view>
+    </view>
+
+
+</view>

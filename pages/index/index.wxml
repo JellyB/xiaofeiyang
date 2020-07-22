@@ -1,0 +1,12 @@
+<view class="page" style="width:{{windowWidth}}px;height:{{windowHeight}}px">
+
+    <view class="body">
+        <image class="img1" src="/images/img2020071501.jpg" />
+
+        <view class="button" bindtap="examGo">
+            <image src="/images/img2020071502.jpg" />
+            <text>点击开始</text>
+        </view>
+    </view>
+
+</view>

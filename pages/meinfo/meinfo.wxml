@@ -1,0 +1,24 @@
+<view class="page-body">
+  
+    <view class="page__bd">
+        <view class="weui-cells__title">请输入姓名：</view>
+        <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+            <input class="weui-input" auto-focus placeholder="请输入" bindinput="bindNameInput" value="{{name}}"/>
+        </view>
+        </view>
+
+        <view class="weui-cells__title">请输入手机：</view>
+        <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+            <input class="weui-input" placeholder="请输入" bindinput="bindTelInput" value="{{tel}}"/>
+        </view>
+        </view>
+
+    </view>
+<!--     
+    <view class="btn-area">
+        <view class="button" bindtap='goOk'>确定</view>
+    </view> -->
+  
+</view>

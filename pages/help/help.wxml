@@ -1,0 +1,39 @@
+<view class="page" style="width:{{windowWidth}}px;height:{{windowHeight}}px">
+    <view class="wrapper">
+
+
+        <view class="r1">
+            <view class="title">活动时间</view>
+            <view class="content">
+            2020年7月13日-2020年7月17日
+            </view>
+        </view>
+
+        <view class="r2">
+            <view class="title">竞答内容</view>
+            <view class="content">
+            中国共产党党史、新中国史、党章党纪党规、新时代党的建设总要求、十九大和十九届二中、三中、四中全会精神等。
+            </view>
+        </view>
+
+        <view class="r3">
+            <view class="title">竞答规则</view>
+            <view class="content">
+            <view>（1）每轮答题共计20题，限时30分钟完成。</view>
+            <view>（2）每人每日可答题2次并取最高分计为当日成绩。</view>
+            <view>竞答活动期间，每日均可参与答题，系统取参与者每日答题最高分相加统计最终排名。若得分相同则按答题时间长短排名。</view>
+           
+            </view>
+        </view>
+
+        <view class="r4">
+            <view class="title">奖项设置</view>
+            <view class="content">
+            <view>一等奖5名（总排名1-5名），价值100元奖品；</view>
+            <view>二等奖10名（总排名6-15名），价值奖金50元奖品；</view>
+            <view>三等奖15名（总排名16-30名），价值奖金30元奖品。</view>
+            </view>
+        </view>
+    </view>
+  
+</view>

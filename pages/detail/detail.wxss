@@ -1,0 +1,14 @@
+@import "../../wxParse/wxParse.wxss";
+.page-detail{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.page-detail .title{
+    padding: 20rpx 0;
+    border-bottom: 1px solid #f82809;
+    
+}
+.page-detail .content{
+    padding: 20rpx 0;
+}

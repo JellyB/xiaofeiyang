@@ -1,0 +1,13 @@
+<view class="body">
+    <view class="page-swiper">
+      
+    </view>
+
+    <view class="articles">
+        <view wx:for="{{articles}}" wx:for-index="idx" data-id="{{article._id}}" data-index="{{article.index}}" wx:for-item="article" class="article" bindtap="selectArticle">
+   
+            <view class="title">{{article.title}}</view>     
+            <view class="arrow">></view>     
+        </view>
+    </view>
+</view>

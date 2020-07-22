@@ -1,0 +1,83 @@
+@import "./weui.wxss";
+
+page {
+  background-color: #f9fafc;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+.page-body{
+  padding-top: 10rpx;
+}
+.body .page-swiper swiper {
+  width: 100%;
+  height: 300rpx;
+}
+
+.body .page-swiper  swiper image {
+  width: 100%;
+}
+
+.body{
+
+}
+.body .articles{
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.body .articles .article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35px;
+    padding: 5px 0;
+    border-bottom: 1rpx solid #fef8ea;
+}
+
+.body .articles .article .icon{
+  width: 35px;
+  height: 35px;
+}
+.body .articles .article .icon image{
+  width: 35px;
+  height: 35px;
+}
+.body .articles .article .title{
+  padding-left: 5px;
+  flex-grow: 8;
+}
+.body .articles .article .arrow{
+  flex-grow: 1;
+}
+.page-section-title{
+    padding: 0;
+  }
+  .swiper-item{
+    display: block;
+    height: 150px;
+  }
+  .page-section-title{
+    margin-top: 60rpx;
+    position: relative;
+  }
+
+  .body .menu{
+    padding: 10px 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.body .menu view{
+    padding: 2px 10px;
+    border: 1px solid #1bd0ad;
+    border-radius: 20px;
+    margin-right: 5px;
+    
+}

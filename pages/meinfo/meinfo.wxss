@@ -1,0 +1,47 @@
+@import "../../lib/weui.wxss";
+
+.page-section{
+  margin-bottom: 20rpx;
+}
+
+.page-body .btn-area{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.page-body .btn-area .button{
+    background-color: #1bcfad;
+    width: 375rpx;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #fff;
+    text-align: center;
+}
+.page-body .title{
+  text-align: left;
+  padding: 10px
+}
+.page-body .input{
+  width: 90%;
+  text-align: left;
+  padding: 20px 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  
+}
+.page-body .input .inputtitle{
+  padding: 10px 0;
+}
+.page-body .input .dept input{
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.weui-cells__title{
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ededed;
+}
